@@ -1,0 +1,52 @@
+.img{
+    position: relative;
+    margin-left: 8.1rem;
+    padding: 0;
+}
+
+.fondo3{
+    background: url(../../assets/img/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+@media screen and (max-width: 900px){
+    .fondo3{
+        height: 100%;
+    }
+}
+
+.card{
+    margin-top: 20%;
+    margin-left: 25%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 70% !important;
+    color: white;
+    border-radius: 0;
+}
+
+.btn-default{
+    background: rgba(0, 0, 0, 0.8) !important;
+    border-radius: 0 !important;
+    width: 200px !important;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.btn-default:hover{
+     background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.card-img-top{
+    border-radius: 0;
+}
+
+.modal-content{
+    background: rgba(0, 0, 0, 0.5);
+    width: 500px !important;
+    color: white;
+}
+
+.modal-content span{
+    color: white;
+}
